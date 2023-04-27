@@ -1,1 +1,11 @@
-<p>productos works!</p>
+
+<ul>
+    <li *ngFor="let product of listaProductos ">
+        <img src="{{product.image}}" alt="">
+        <h4>{{product.name}}</h4>
+        <p>{{product.description}}</p>
+        <small>{{product.price}}</small>
+        <small>{{product.stars}} <h3>★★★★★</h3> </small>
+        <button routerLink="/productos/{{product.id}}">Selecionar</button>
+    </li>
+</ul>

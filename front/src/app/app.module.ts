@@ -10,6 +10,10 @@ import { AcercaComponent } from './components/acerca/acerca.component';
 import { ProductosComponent } from './components/productos/productos.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { GestionComponent } from './components/gestion/gestion.component';
+import {HttpClientModule} from '@angular/common/http'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ProductoComponent } from './producto/producto/producto.component';
+
 
 @NgModule({
   declarations: [
@@ -20,11 +24,15 @@ import { GestionComponent } from './components/gestion/gestion.component';
     AcercaComponent,
     ProductosComponent,
     ContactoComponent,
-    GestionComponent
+    GestionComponent,
+    ProductoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
