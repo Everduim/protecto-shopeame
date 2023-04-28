@@ -11,6 +11,7 @@ export class GestionComponent {
   constructor(private servicio: ApiService,
   private formBuilder : FormBuilder){}
 public nuevoProducto = this.servicio.productoInfo;
+public productoId = this.servicio.productoInfo.id;
 ngOnInit() :void{
   this.productoForm = this.formBuilder.group({
     name: [
@@ -31,6 +32,20 @@ ngOnInit() :void{
     image: [
       this.nuevoProducto.image, [Validators.required]
     ]
-  })
+  });
+  this.productoForm.valueChanges.subscribe((changes)=>{
+    this.nuevoProducto = changes;
+  });
 }
+onSubmit = () => {
+  this.servicio.cleanProducto();
+  if (this.productoId !== ""){
+    this.servicio.putProducto(this.productoId, this.nuevoProducto).subscribe()
+  } else {
+    this.servicio.postProducto(this.nuevoProducto).subscribe();
+  }
+  this.productoForm.reset()
+  
+}
+
 }

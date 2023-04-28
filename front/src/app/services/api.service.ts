@@ -17,12 +17,31 @@ export class ApiService {
     image:"",
   }
   getProductos = () => {
-    return this.http.get(this.baseUrl)
-  }
+    return this.http.get(this.baseUrl);
+  };
   getProducto =(id:number)=>{
-    return this.http.get(`${this.baseUrl}/${id}`)
-  }
+    return this.http.get(`${this.baseUrl}/${id}`);
+  };
+  postProducto = (producto: any) => {
+    return this.http.post(this.baseUrl, producto)
+  };
   deleteProducto = (id:number)=> {
-    return this.http.delete(`${this.baseUrl}/${id}`)
+    return this.http.delete(`${this.baseUrl}/${id}`);
+  };
+  editItem = (producto: any) => {
+    this.productoInfo = producto;
+  }
+  cleanProducto = () => {
+    this.productoInfo = {
+    id:"",
+    name:"",
+    price:"",
+    description:"",
+    stars:"",
+    image:"",
+    };
+  };
+  putProducto = (productoId: any, editedProducto: any ) => {
+    return this.http.put(`${this.baseUrl}/${productoId}`, editedProducto)
   }
 }
