@@ -28,4 +28,8 @@ export class ProductoComponent {
       this.router.navigate(["/productos"])
     })
   }
+  patchProducto = (producto: any) =>{
+    this.servicio.editItem(producto)
+    this.router.navigate(["/gestion"])
+  }
 }
