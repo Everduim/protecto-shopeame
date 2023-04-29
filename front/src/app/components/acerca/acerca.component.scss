@@ -1,0 +1,58 @@
+// .marco-biografia{
+//     padding-left: 30px;
+//     padding-right: 30px;
+//     padding-bottom: 30px;
+//     padding-top: 30px; ;
+//     background-color: rgb;
+    
+//     }
+// .fondo-biografia{
+// border: black;
+// border: solid;
+// margin: 40px;
+// padding: 40px;
+// // width: 70%;
+// }
+// .img{
+//     flexf
+//     align-items: center;
+
+// }
+
+$color-fondo: #F9F9F9;
+$color-titulo: #333;
+$color-texto: #777;
+$fuente-titulo: 28px;
+$fuente-texto: 16px;
+
+.marco-biografia {
+  background-color: $color-fondo;
+  padding: 20px;
+  
+  .fondo-biografia {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+    h2 {
+      color: $color-titulo;
+      font-size: $fuente-titulo;
+      margin-bottom: 20px;
+    }
+    
+    p {
+      color: $color-texto;
+      font-size: $fuente-texto;
+      line-height: 1.5;
+      margin-bottom: 15px;
+    }
+    
+    .img {
+      display: block;
+      margin: 20px auto 0;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}

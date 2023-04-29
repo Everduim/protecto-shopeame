@@ -1,10 +1,15 @@
+
+<div class="form-container">
 <form [formGroup]="productoForm" (ngSubmit)="onSubmit()">
-    <input formControlName="id" placeholder="Id">
-    <input formControlName="name" placeholder="Introduce el Producto aquí">
-    <input formControlName="price" placeholder="Price">
-    <input formControlName="description" placeholder="Description">
-    <input formControlName="stars" placeholder="Stars">
-    <input formControlName="image" placeholder="Imagen">
+    <ul>
+        <li><input formControlName="id" placeholder="Id"></li>
+        <li><input formControlName="name" placeholder="Introduce el Producto aquí"></li>
+        <li><input formControlName="price" placeholder="Price"> </li>
+        <li><input formControlName="description" placeholder="Description"></li>
+        <li><input formControlName="stars" placeholder="Stars"></li>
+        <li><input formControlName="image" placeholder="Link: Imagen"></li>
+    </ul>
     <button type="submit">Agregar Producto</button>
 </form>
+</div>
 
