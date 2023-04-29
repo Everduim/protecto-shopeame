@@ -1,0 +1,33 @@
+
+section{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 30%;
+    padding-right: 30%;
+    height: 100vh;
+    background-color: rgb(6, 5, 5);
+}
+.contenedor{
+    border-radius: 10px;
+    border: solid 3px;
+    padding: 5px;
+    height: 100%;
+    width:100% ;
+    background-color: rgb(220, 209, 209);
+}
+.contenedor_imagen{
+    height: 85%;
+    width: 100%;
+    
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+h1{
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
