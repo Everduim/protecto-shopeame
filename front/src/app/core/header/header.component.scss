@@ -1,15 +1,31 @@
+header{
+    height: 22vh;
+    background-color: rgb(195, 187, 187);
+}
 div{
     display: flex;
     justify-content: center;
-    padding-top: 30px;
+    padding-top:10px;
+    height: 10vh;
+    img{
+        height: 100%;
+        }
 }
 ul{
     display: flex;
     justify-content: space-around;
     list-style: none;
-    padding-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(114, 107, 107);
+    
     
 }
 a{
     text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: large;
+    
 }

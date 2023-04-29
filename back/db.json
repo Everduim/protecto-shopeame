@@ -1,52 +1,52 @@
 {
   "productos": [
     {
+      "name": "Set Premiun",
       "id": 1,
-      "name": "Zapatos Vintage",
-      "price": 49.99,
-      "description": "Bellos zapatos antiguos para Hipsters.",
-      "stars": 4.5,
-      "image": "https://i.ibb.co/4j85tBM/shoes.jpg"
+      "price": "1500 €",
+      "description": "Set de I_Pad, Iphone y SmartWatch",
+      "stars": "5",
+      "image": "https://i.pinimg.com/564x/48/a3/1f/48a31ff64bd705853fd107d9bbe0f6ad.jpg"
     },
     {
       "name": "Lapiceros negros",
       "id": 3,
-      "price": "1.50",
+      "price": "1.50 €",
       "description": "Estupendos bolisssss",
-      "stars": "2",
-      "image": ""
+      "stars": "5",
+      "image": "https://i.pinimg.com/564x/f3/76/1b/f3761bcd277e3e68050340f2860a3f30.jpg"
     },
     {
+      "name": "Botas Nike Jordan",
       "id": 4,
-      "name": "Pantalón",
-      "price": 49.99,
-      "description": "Pantalón de moto para evitar heridas.",
-      "stars": 4,
-      "image": "https://i.ibb.co/6nnVkNY/pantalon.jpg"
+      "price": "500 €",
+      "description": "Exclusivas Nke Air Jordan",
+      "stars": "5",
+      "image": "https://i.pinimg.com/564x/c8/8d/68/c88d686da4e789d665ec6a934045c3cf.jpg"
     },
     {
+      "name": "Gorra Truker",
       "id": 5,
-      "name": "Cuaderno de colores",
-      "price": 7.25,
-      "description": "Excelente cuaderno para que apuntes tus clases.",
-      "stars": 3.5,
-      "image": "https://i.ibb.co/Jr3FHVd/cuaderno.jpg"
+      "price": "35 €",
+      "description": "Gorra Goorin Bross Truker color negra",
+      "stars": "5",
+      "image": "https://i.pinimg.com/564x/b1/96/55/b19655188cd143ccde73a6fc684918c9.jpg"
     },
     {
+      "name": "Gafas Rayban",
       "id": 7,
-      "name": "Maceta de diseño",
-      "price": 9.99,
-      "description": "Maceta de diseño a precio económico.",
-      "stars": 5,
-      "image": "https://i.ibb.co/MZSrV6q/maceta.jpg"
+      "price": "150 €",
+      "description": "Gafas de sol con proteccion",
+      "stars": "5",
+      "image": "https://i.pinimg.com/564x/37/06/6b/37066b73c50c5c0252f0aad8600ac940.jpg"
     },
     {
-      "id": 8,
-      "name": "Gato Persa",
-      "price": 100,
-      "description": "No sé si es legal vender animales online...",
-      "stars": 3,
-      "image": "https://i.ibb.co/1zPPBjx/gato.jpg"
+      "name": "Auriculares Pro",
+      "id": "52",
+      "price": "70 €",
+      "description": "Auriculares Super Profesionales",
+      "stars": "5",
+      "image": "https://i.pinimg.com/564x/f3/e1/8c/f3e18cf308b5b6a14eb469ee660c9cef.jpg"
     }
   ]
 }
