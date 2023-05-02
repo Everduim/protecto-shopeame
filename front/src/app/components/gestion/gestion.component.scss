@@ -1,66 +1,109 @@
+ul{
+  border-radius: 5px;
+  border: solid 1px black;
+  height: 45vh;
+  width: 25vw;
+  margin-left: 33vw;
+  margin-right: 33vw;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  background-color: rgb(193, 191, 191);
+    li{
+      margin: 0;
+      list-style: none;
+     padding-top: 35px;
+       width: 93%;
+      display: flex;
+      justify-content: center;
+    }
+    input{
+      width: 100%;
+    }
+    button{
+      height: 30px;
+    }
+}
+
+
+
+
+
+
+
+
 // ul{
-//     display:block;
-//     align-items:space-around;
+//     // display:block;
+//     // align-items:space-around;
+//     height: 30vh;
+//     text-align: center;
 
 // }
- li{
-     list-style-type: none;
-     padding-top: 15px;
-     padding-bottom: 15px;
- }
+//  li{
+  
+//      list-style-type: none;
+//      padding-top: 15px;
+//      padding-bottom: 15px;
+//  }
 
-.form-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70vh;
-    background-color: #F5F5F5;
-  }
-
-  .product-form {
-    background-color: #FFFFFF;
-    padding: 20px;
-    border-radius: 10px;
-  }
-
-  .form-input {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-bottom: 2px solid #AAAAAA;
-    margin-bottom: 20px;
-    font-size: 16px;
-    color: #333333;
-    transition: all 0.3s ease;
-  }
-
-  .form-input:focus {
-    border-bottom: 2px solid #0066FF;
-  }
-
-  .form-button {
-    
-    // display: block;
-    background-color: #0066FF;
-    color: #FFFFFF;
-    // padding: 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    
-    
-  }
-
-  .form-button:hover {
-    background-color: #0044CC;
+// div {
+//   margin-top: 7vh;
+//   margin-bottom: 10vh;
+//   margin-left: 35vw;
+//   border: solid 1px;
+//   width: 30%;
+//     display: block;
+//     justify-content: center;
+//     align-items: center;
+//     height: 70vh;
+//     background-color: #F5F5F5;
+//   }
+//   button{
+//     // margin-left: 75px;
+//   }
+//   input{
+//     width: 80%;
+//     text-align: center;
    
-  }
+//   }
+  // .product-form {
+  //   background-color: #FFFFFF;
+  //   padding: 20px;
+  //   border-radius: 10px;
+  // }
 
-  button{
-    margin-left: 75px;
-  }
-  input{
-    width: 180px;
-  }
+  // .form-input {
+  //   width: 100%;
+  //   padding: 10px;
+  //   border: none;
+  //   border-bottom: 2px solid #AAAAAA;
+  //   margin-bottom: 20px;
+  //   font-size: 16px;
+  //   color: #333333;
+  //   transition: all 0.3s ease;
+  // }
+
+  // .form-input:focus {
+  //   border-bottom: 2px solid #0066FF;
+  // }
+
+  // .form-button {
+    
+  //   // display: block;
+  //   background-color: #0066FF;
+  //   color: #FFFFFF;
+  //   // padding: 10px;
+  //   border: none;
+  //   border-radius: 5px;
+  //   font-size: 16px;
+  //   cursor: pointer;
+  //   transition: all 0.3s ease;
+    
+    
+  // }
+
+  // .form-button:hover {
+  //   background-color: #0044CC;
+   
+  // }
+
+ 

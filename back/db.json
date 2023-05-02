@@ -39,6 +39,38 @@
       "description": "Auriculares Super Profesionales",
       "stars": "5",
       "image": "https://i.pinimg.com/564x/f3/e1/8c/f3e18cf308b5b6a14eb469ee660c9cef.jpg"
+    },
+    {
+      "name": "Gafas de Sol",
+      "id": "60",
+      "price": "250€",
+      "description": "Alta Protección",
+      "stars": "",
+      "image": "https://i.pinimg.com/564x/21/0f/49/210f4966a29ce9e0eb049835ccddd93f.jpg"
+    },
+    {
+      "name": "Pulsera",
+      "id": "61",
+      "price": "50€",
+      "description": "Pulsera de Acero",
+      "stars": "",
+      "image": "https://i.pinimg.com/236x/38/ab/52/38ab52490a07329fd5e7adf357bb644a.jpg"
+    },
+    {
+      "name": "Reloj",
+      "id": "63",
+      "price": "300€",
+      "description": "Reloj De Alta Gama",
+      "stars": "",
+      "image": "https://i.pinimg.com/236x/b1/95/20/b19520c191eb63d9719455e3024f1298.jpg"
+    },
+    {
+      "name": "perrito",
+      "id": "65",
+      "price": "0€",
+      "description": "Seleccioname que soy bien Guapo",
+      "stars": "",
+      "image": "https://i.pinimg.com/236x/01/25/2b/01252ba9754634443de98f5ffee15532.jpg"
     }
   ]
 }
