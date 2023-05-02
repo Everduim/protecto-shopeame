@@ -1,24 +1,3 @@
-// .marco-biografia{
-//     padding-left: 30px;
-//     padding-right: 30px;
-//     padding-bottom: 30px;
-//     padding-top: 30px; ;
-//     background-color: rgb;
-    
-//     }
-// .fondo-biografia{
-// border: black;
-// border: solid;
-// margin: 40px;
-// padding: 40px;
-// // width: 70%;
-// }
-// .img{
-//     flexf
-//     align-items: center;
-
-// }
-
 $color-fondo: #F9F9F9;
 $color-titulo: #333;
 $color-texto: #777;
@@ -34,6 +13,7 @@ $fuente-texto: 16px;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
     
     h2 {
       color: $color-titulo;
