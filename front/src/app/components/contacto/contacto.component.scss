@@ -1,0 +1,42 @@
+.contacto {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.datos-contacto {
+  flex: -1;
+  margin-right: 20px;
+  flex-wrap: wrap;
+}
+
+.imagen-contacto {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen-contacto img {
+  max-width: 100%;
+  height: auto;
+  
+}
+
+.mapa-tienda {
+  flex: 1;
+  margin-top: 20px;
+}
+
+.mapa-tienda img {
+  max-width: 100%;
+  height: auto;
+}
+button{
+    display: flex;
+    margin-left: 32px;
+}
+li{
+    list-style: circle;
+    color: aliceblue;
+}
